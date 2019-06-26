@@ -24,9 +24,9 @@ var customerController=function(req, res){
 app.get('/products',productController);
 app.get('/customers',customerController);
 
-var server = app.listen(8087, function () {
+var server = app.listen(8088, function () {
   var host = server.address().address
   var port = server.address().port
-  console.log("Example app listening at http://localhost:8087", host, port)
+  console.log("Example app listening at http://localhost:8088", host, port)
 })
  
